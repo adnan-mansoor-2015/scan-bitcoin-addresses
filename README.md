@@ -13,7 +13,7 @@ cd scan-bitcoin-addresses
 ./scan-bitcoin-addresses.exe -h
 ```
 
-# Sample run for file vs directory [path can be relative vs absolute]
+# Sample run for file vs directory [path can be relative or absolute]
 ### DirectoryPath:
 ```console
 ./scan-bitcoin-addresses.exe scan testDirectory  
