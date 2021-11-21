@@ -1,0 +1,396 @@
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 some words after the address",
+    "MatchedWord": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a some words after the address",
+    "MatchedWord": "1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV some words after the address",
+    "MatchedWord": "19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 some words after the address",
+    "MatchedWord": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "some words before 1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a some words after case:3",
+    "MatchedWord": "1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "some words before 19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV some words after case:3",
+    "MatchedWord": "19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9",
+    "MatchedWord": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a",
+    "MatchedWord": "1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
+    "MatchedLine": "19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV",
+    "MatchedWord": "19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "1QCaxc8hutpdZ62iKZsn1TCG3nh7uPZojq some words after the address",
+    "MatchedWord": "1QCaxc8hutpdZ62iKZsn1TCG3nh7uPZojq"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "1DhRmSGnhPjUaVPAj48zgPV9e2oRhAQFUb some words after the address",
+    "MatchedWord": "1DhRmSGnhPjUaVPAj48zgPV9e2oRhAQFUb"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "17LN2oPYRYsXS9TdYdXCCDvF2FegshLDU2 some words after the address",
+    "MatchedWord": "17LN2oPYRYsXS9TdYdXCCDvF2FegshLDU2"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "14h2bDLZSuvRFhUL45VjPHJcW667mmRAAn some words after the address",
+    "MatchedWord": "14h2bDLZSuvRFhUL45VjPHJcW667mmRAAn"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "sky yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4 some words after case:3",
+    "MatchedWord": "yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "skycoin 26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2 some words after case:3",
+    "MatchedWord": "26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "some words before WC4dEA4wwkZ526WZKh2krsQ4dmE6N6tTwg some words",
+    "MatchedWord": "WC4dEA4wwkZ526WZKh2krsQ4dmE6N6tTwg"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "3kPN4pfnLPWVJ3sXaaqELSyYabkXVb5mpx",
+    "MatchedWord": "3kPN4pfnLPWVJ3sXaaqELSyYabkXVb5mpx"
+}
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "2Khb2LscbALz924xUgq8y9zpmR8tNkjuAec",
+    "MatchedWord": "2Khb2LscbALz924xUgq8y9zpmR8tNkjuAec"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 address then possible address then some words case:2",
+    "MatchedWord": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 address then possible address then some words case:2",
+    "MatchedWord": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV address then possible address then some words case:2",
+    "MatchedWord": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV address then possible address then some words case:2",
+    "MatchedWord": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a address then possible address then some words case:2",
+    "MatchedWord": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a address then possible address then some words case:2",
+    "MatchedWord": "btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc(1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9) address then possible address then some words case:2",
+    "MatchedWord": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc(1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9) address then possible address then some words case:2",
+    "MatchedWord": "btc(1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9)"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a address then possible address then some words case:2",
+    "MatchedWord": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a address then possible address then some words case:2",
+    "MatchedWord": "btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV address then possible address then some words case:2",
+    "MatchedWord": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV address then possible address then some words case:2",
+    "MatchedWord": "btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "some words before possible match btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9  some words after possible match",
+    "MatchedWord": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "some words before possible match btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV some words after possible match",
+    "MatchedWord": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "some words before possible match btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a  some words after possible match",
+    "MatchedWord": "btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "some words before possible match btc(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)  some words after possible match",
+    "MatchedWord": "btc(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "some words before possible match btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a  some words after possible match",
+    "MatchedWord": "btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "some words before possible match btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV  some words after possible match",
+    "MatchedWord": "btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9",
+    "MatchedWord": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV",
+    "MatchedWord": "btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a",
+    "MatchedWord": "btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)",
+    "MatchedWord": "btc(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a",
+    "MatchedWord": "btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV",
+    "MatchedWord": "btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:2iEPcNEQg6YQYt2GLjSGJwJEDdLcLvgnatA sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2 address then possible address then some words case:2",
+    "MatchedWord": "sky:2iEPcNEQg6YQYt2GLjSGJwJEDdLcLvgnatA"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:2iEPcNEQg6YQYt2GLjSGJwJEDdLcLvgnatA sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2 address then possible address then some words case:2",
+    "MatchedWord": "sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:2WBKTdT58ZxXGpoYtbaJ5UPYnVLNmw2BHSH sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n address then possible address then some words case:2",
+    "MatchedWord": "sky:2WBKTdT58ZxXGpoYtbaJ5UPYnVLNmw2BHSH"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:2WBKTdT58ZxXGpoYtbaJ5UPYnVLNmw2BHSH sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n address then possible address then some words case:2",
+    "MatchedWord": "sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:oq4yRyppcigt4S25Sdjx1Ncpmzyxw67SLe sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4 address then possible address then some words case:2",
+    "MatchedWord": "sky:oq4yRyppcigt4S25Sdjx1Ncpmzyxw67SLe"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:oq4yRyppcigt4S25Sdjx1Ncpmzyxw67SLe sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4 address then possible address then some words case:2",
+    "MatchedWord": "sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:2NauYwSe9RPsHY7oZaLuakP44ofYziv5wte sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2) address then possible address then some words case:2",
+    "MatchedWord": "sky:2NauYwSe9RPsHY7oZaLuakP44ofYziv5wte"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:2NauYwSe9RPsHY7oZaLuakP44ofYziv5wte sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2) address then possible address then some words case:2",
+    "MatchedWord": "sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2 skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp address then possible address then some words case:2",
+    "MatchedWord": "sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2 skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp address then possible address then some words case:2",
+    "MatchedWord": "skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7 address then possible address then some words case:2",
+    "MatchedWord": "sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7 address then possible address then some words case:2",
+    "MatchedWord": "skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "some words before possible match sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2  some words after possible match",
+    "MatchedWord": "sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "some words before possible match sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n some words after possible match",
+    "MatchedWord": "sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "some words before possible match sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4  some words after possible match",
+    "MatchedWord": "sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "some words before possible match sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)  some words after possible match",
+    "MatchedWord": "sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "some words before possible match skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp  some words after possible match",
+    "MatchedWord": "skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "some words before possible match skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7  some words after possible match",
+    "MatchedWord": "skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2",
+    "MatchedWord": "sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n",
+    "MatchedWord": "sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4",
+    "MatchedWord": "sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)",
+    "MatchedWord": "sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp",
+    "MatchedWord": "skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp"
+}
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\skycoin\\possible.txt",
+    "MatchedLine": "skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7",
+    "MatchedWord": "skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7"
+}
