@@ -108,7 +108,10 @@ func ScanFile(scanFilePath string) ([]*MatchDetails, error) {
 
 	scanner := bufio.NewScanner(scanFile)
 	base58Re := regexp.MustCompile(`[a-km-zA-HJ-NP-Z1-9]+`)
-	base58Re.Longest()
+	const maxCapacity = 256 * 1024 * 1024
+	buf := make([]byte, maxCapacity)
+	scanner.Buffer(buf, maxCapacity)
+
 	for scanner.Scan() {
 		fileLine := scanner.Text()
 		if len(fileLine) > 0 {
