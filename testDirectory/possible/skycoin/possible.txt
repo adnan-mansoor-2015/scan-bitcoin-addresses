@@ -1,0 +1,18 @@
+sky:2iEPcNEQg6YQYt2GLjSGJwJEDdLcLvgnatA sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2 address then possible address then some words case:2
+sky:2WBKTdT58ZxXGpoYtbaJ5UPYnVLNmw2BHSH sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n address then possible address then some words case:2
+sky:oq4yRyppcigt4S25Sdjx1Ncpmzyxw67SLe sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4 address then possible address then some words case:2
+sky:2NauYwSe9RPsHY7oZaLuakP44ofYziv5wte sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2) address then possible address then some words case:2
+sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2 skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp address then possible address then some words case:2
+sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7 address then possible address then some words case:2
+some words before possible match sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2  some words after possible match
+some words before possible match sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n some words after possible match
+some words before possible match sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4  some words after possible match
+some words before possible match sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)  some words after possible match
+some words before possible match skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp  some words after possible match
+some words before possible match skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7  some words after possible match
+sky:Y9jPpWaLfoTQYkhrFzgnKbCpjMrrTDvWX2
+sky:TQfQQQ8ciaSz2DT8tBzqyoVzA5vg3qZm8n
+sky-yUn7TxndNzRoZ34hMijhMyh7CQnYA7dAn4
+sky(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)
+skycoin:8i4EU2R8aiS1QE1PMhE6qvgqencUowHZnp
+skycoin::TbFtcHeUqef3JeKMBrRxzRvBXK4nJtRoe7

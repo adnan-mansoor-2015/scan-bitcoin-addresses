@@ -1,0 +1,18 @@
+btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 address then possible address then some words case:2
+btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV address then possible address then some words case:2
+btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a address then possible address then some words case:2
+btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc(1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9) address then possible address then some words case:2
+btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a address then possible address then some words case:2
+btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV address then possible address then some words case:2
+some words before possible match btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9  some words after possible match
+some words before possible match btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV some words after possible match
+some words before possible match btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a  some words after possible match
+some words before possible match btc(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)  some words after possible match
+some words before possible match btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a  some words after possible match
+some words before possible match btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV  some words after possible match
+btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9
+btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV
+btc-1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a
+btc(26rQC5KKEgYyiLhSWpef94gHXKjYWPdjQx2)
+btccoin:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a
+btccoin::19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV

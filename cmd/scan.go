@@ -28,7 +28,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
-const minAcceptableMatchLength = 10
+const minPerfectMatchLength = 20
+const minPossibleMatchLength = 10
 
 type MatchDetails struct {
 	MatchType   string
@@ -52,7 +53,7 @@ var scanCmd = &cobra.Command{
 			return
 		}
 
-		if matchedFileList, err := scanDirectory(scanDirectoryPath); err != nil {
+		if matchedFileList, err := ScanDirectory(scanDirectoryPath); err != nil {
 			fmt.Printf("Scanning Failed for directory: %s err: %s\n", scanDirectoryPath, err.Error())
 		} else {
 			for _, matchedDetails := range matchedFileList {
@@ -70,7 +71,7 @@ func init() {
 	rootCmd.AddCommand(scanCmd)
 }
 
-func scanDirectory(scanDirectoryPath string) ([]*MatchDetails, error) {
+func ScanDirectory(scanDirectoryPath string) ([]*MatchDetails, error) {
 
 	if _, err := os.Stat(scanDirectoryPath); os.IsNotExist(err) {
 		return nil, fmt.Errorf("No directory found at " + scanDirectoryPath)
@@ -80,7 +81,7 @@ func scanDirectory(scanDirectoryPath string) ([]*MatchDetails, error) {
 
 	err := filepath.Walk(scanDirectoryPath, func(filePath string, info fs.FileInfo, err error) error {
 		if !info.IsDir() {
-			if fileMatchList, err := scanFile(filePath); err != nil {
+			if fileMatchList, err := ScanFile(filePath); err != nil {
 				return err
 			} else {
 				matchDetailsList = append(matchDetailsList, fileMatchList...)
@@ -92,7 +93,7 @@ func scanDirectory(scanDirectoryPath string) ([]*MatchDetails, error) {
 	return matchDetailsList, err
 }
 
-func scanFile(scanFilePath string) ([]*MatchDetails, error) {
+func ScanFile(scanFilePath string) ([]*MatchDetails, error) {
 	if scanFileInfo, err := os.Stat(scanFilePath); os.IsNotExist(err) || scanFileInfo.IsDir() {
 		return nil, fmt.Errorf("No file found at " + scanFilePath)
 	}
@@ -106,17 +107,15 @@ func scanFile(scanFilePath string) ([]*MatchDetails, error) {
 	matchDetailsList := []*MatchDetails{}
 
 	scanner := bufio.NewScanner(scanFile)
-	base58Re := regexp.MustCompile(`[1-9A-Za-z][^OIl]*`)
+	base58Re := regexp.MustCompile(`[a-km-zA-HJ-NP-Z1-9]+`)
 	base58Re.Longest()
 	for scanner.Scan() {
 		fileLine := scanner.Text()
-		// fmt.Println("fileLine: " + fileLine)
 		if len(fileLine) > 0 {
 			for _, word := range strings.Split(fileLine, " ") {
-				// fmt.Println("word: " + word)
-				matchedString := base58Re.FindString(word)
+				matchedString := findLongestMatch(base58Re, word)
 				matchedStringLength := len(matchedString)
-				if matchedStringLength > minAcceptableMatchLength {
+				if len(word) > minPerfectMatchLength && matchedStringLength > minPossibleMatchLength {
 					if matchedStringLength == len(word) {
 						matchDetailsList = append(matchDetailsList, &MatchDetails{MatchType: "perfect", MatchFile: scanFilePath, MatchedLine: fileLine, MatchedWord: word})
 					} else {
@@ -133,4 +132,16 @@ func scanFile(scanFilePath string) ([]*MatchDetails, error) {
 	}
 
 	return matchDetailsList, nil
+}
+
+func findLongestMatch(regex *regexp.Regexp, matchStr string) string {
+	matchStrings := regex.FindAllString(matchStr, -1)
+	longestMatch := ""
+	for _, matchString := range matchStrings {
+		if len(matchString) > len(longestMatch) {
+			longestMatch = matchString
+		}
+	}
+
+	return longestMatch
 }
