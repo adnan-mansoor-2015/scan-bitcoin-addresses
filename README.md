@@ -16,7 +16,7 @@ cd scan-bitcoin-addresses
 # Sample run for file vs directory [path can be relative or absolute]
 ### DirectoryPath:
 ```console
-./scan-bitcoin-addresses.exe scan testDirectory  
+./scan-bitcoin-addresses.exe scan directory1 directory2 directory3  
 ```
 ### FilePath: 
 ```console
@@ -44,3 +44,34 @@ cd scan-bitcoin-addresses
 }
 ```
 
+## Verbose mode
+
+```console
+go run main.go scan -v testDirectory
+
+
+Scanning: Dir(1 of 1) File(1 of 6): testDirectory\possible\btc\possible.txt
+{
+    "MatchType": "possible",
+    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
+    "MatchedLine": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 address then possible address then some words case:2",
+    "MatchedLineNo": 1,
+    "MatchedWord": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+}
+...
+
+Scan Complete: Dir(1 of 1) File(1 of 6): testDirectory\possible\btc\possible.txt, size: 1 KB(s), line(s): 18, timeTaken: 65 ms
+
+---
+
+Scanning: Dir(1 of 1) File(6 of 6): testDirectory\perfect\skycoin\perfect.txt
+{
+    "MatchType": "perfect",
+    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
+    "MatchedLine": "1QCaxc8hutpdZ62iKZsn1TCG3nh7uPZojq some words after the address",
+    "MatchedLineNo": 1,
+    "MatchedWord": "1QCaxc8hutpdZ62iKZsn1TCG3nh7uPZojq"
+}
+...
+
+Scan Complete: Dir(1 of 1) File(6 of 6): testDirectory\perfect\skycoin\perfect.txt, size: 529 Byte(s), line(s): 9, timeTaken: 21 ms```
