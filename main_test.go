@@ -10,7 +10,7 @@ import (
 
 // Testing Possible Matches Directory
 func TestPerfectMatchesDirectory(t *testing.T) {
-	matchDetails, err := cmd.ScanDirectory("testDirectory/perfect")
+	matchDetails, err := cmd.ScanDirectories([]string{"testDirectory/perfect"}, true)
 	require.NoError(t, err, "Failed to scan directory")
 	for _, matchDetail := range matchDetails {
 		if matchDetail.MatchType != "perfect" {
@@ -21,7 +21,7 @@ func TestPerfectMatchesDirectory(t *testing.T) {
 
 // Testing Perfect Matches Directory
 func TestPossibleMatchesDirectory(t *testing.T) {
-	matchDetails, err := cmd.ScanDirectory("testDirectory/possible")
+	matchDetails, err := cmd.ScanDirectories([]string{"testDirectory/possible"}, true)
 	require.NoError(t, err, "Failed to scan directory")
 	for _, matchDetail := range matchDetails {
 		if matchDetail.MatchType != "possible" {
@@ -32,7 +32,7 @@ func TestPossibleMatchesDirectory(t *testing.T) {
 
 // Testing Possible Matches Directory
 func TestNoMatchesMatchesDirectory(t *testing.T) {
-	matchDetails, err := cmd.ScanDirectory("testDirectory/nomatch")
+	matchDetails, err := cmd.ScanDirectories([]string{"testDirectory/nomatch"}, true)
 	require.NoError(t, err, "Failed to scan directory")
 	require.Equal(t, 0, len(matchDetails), "Matches found somehow")
 
@@ -43,7 +43,7 @@ func TestNoMatchesMatchesDirectory(t *testing.T) {
 
 // Testing Possible Matches File
 func TestPerfectMatchesFile(t *testing.T) {
-	matchDetails, err := cmd.ScanDirectory("testDirectory/perfect/btc/perfect.txt")
+	matchDetails, err := cmd.ScanDirectories([]string{"testDirectory/perfect/btc/perfect.txt"}, true)
 	require.NoError(t, err, "Failed to scan file")
 	for _, matchDetail := range matchDetails {
 		if matchDetail.MatchType != "perfect" {
@@ -54,7 +54,7 @@ func TestPerfectMatchesFile(t *testing.T) {
 
 // Testing Perfect Matches File
 func TestPossibleMatchesFile(t *testing.T) {
-	matchDetails, err := cmd.ScanDirectory("testDirectory/possible/btc/possible.txt")
+	matchDetails, err := cmd.ScanDirectories([]string{"testDirectory/possible/btc/possible.txt"}, true)
 	require.NoError(t, err, "Failed to scan file")
 	for _, matchDetail := range matchDetails {
 		if matchDetail.MatchType != "possible" {
@@ -65,7 +65,7 @@ func TestPossibleMatchesFile(t *testing.T) {
 
 // Testing Possible Matches File
 func TestNoMatchesMatchesFile(t *testing.T) {
-	matchDetails, err := cmd.ScanDirectory("testDirectory/nomatch/btc/nomatch.txt")
+	matchDetails, err := cmd.ScanDirectories([]string{"testDirectory/nomatch/btc/nomatch.txt"}, true)
 	require.NoError(t, err, "Failed to scan file")
 	require.Equal(t, 0, len(matchDetails), "Matches found somehow")
 
