@@ -95,7 +95,7 @@ func ScanDirectories(directories []string, verboseMode bool) ([]*MatchDetails, e
 			fmt.Printf("\n\n\n---\n\n\n")
 
 			if verboseMode {
-				fmt.Printf("Scanning: Dir(%d of %d) File(%d of %d): %s\n", dirNo, totalDirectories, fileNo, totalFiles, filePath)
+				fmt.Printf("\nScanning: Dir(%d of %d) File(%d of %d): %s\n", dirNo, totalDirectories, fileNo, totalFiles, filePath)
 			}
 
 			startTime := time.Now()
@@ -122,7 +122,7 @@ func ScanDirectories(directories []string, verboseMode bool) ([]*MatchDetails, e
 				} else if fileSize > 1024 {
 					sizeStr = fmt.Sprintf("%d KB(s)", fileSize/1024)
 				}
-				fmt.Printf("Scan Complete: Dir(%d of %d) File(%d of %d): %s, size: %s, line(s): %d, timeTaken: %d ms\n",
+				fmt.Printf("\nScan Complete: Dir(%d of %d) File(%d of %d): %s, size: %s, line(s): %d, timeTaken: %d ms\n",
 					dirNo, totalDirectories, fileNo, totalFiles, filePath, sizeStr, fileLines, elapsed.Milliseconds())
 			}
 		}
