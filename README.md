@@ -22,13 +22,15 @@ type Block struct {
 In order to use the library we will create a BlockTree instance. Each block tree instance holds a tree of blocks and exposes various methods to interact with them. 
 ```
 type BlockTree struct {
-    Root               *Block                               // Serves as the root of the block tree
-    TransactionsMap    map[cipher.SHA256]*Transactions      // Global TxId to *Transactions Map (Transactions struct is defined in [coin/Transactions.go]) 
+    Root               *Block                               	// Serves as the root of the block tree
+    TotalBlocks	       uint64				    	// Total blocks in the tree
+    MaximumDepth       uint64				    	// Maximum Depth of the tree
+    TransactionsMap    map[cipher.SHA256]*Transactions      	// Global TxId to *Transactions Map (Transactions struct is defined in [coin/Transactions.go]) 
 }
 ```
 
 
-## Routines
+## Block Routines
 
 ### CheckIfUnspentOutputExistsInSpent
 - Checks if an unspent output is spent in a block
@@ -45,10 +47,19 @@ func (b *Block) CheckIfUnspentOutputExistsInCreated(uxId cipher.SHA256) string {
 ```
 
 
+## BlockTree Routines
+
 ### AddBlock
 - Adds a block to the block tree
 ```
 func (bt *BlockTree) AddBlock(b *Block) string {
+}
+```
+
+### RemoveBlock
+- Remove a block from the tree and updates it's parents and childrens accordingly
+```
+func (bt *BlockTree) RemoveBlock(b *Block) string {
 }
 ```
 
@@ -67,7 +78,7 @@ func (bt *BlockTree) GetAllBlocks() []*Block {
 }
 ```
 
-### CheckIfUnspectOutputExists
+### CheckIfUnspectOutputSpendable
 - Traverses a tree from root to the given Block can check if the unspent out was destroyed on it's way from Root to the given block.
 - This function can *return* any of the following codes:
   -> "NeverExisted": The unspent output never existed 
@@ -75,7 +86,17 @@ func (bt *BlockTree) GetAllBlocks() []*Block {
   -> "Available": The unspent output is available to spend on the given block
   
 ```
-func (bt *BlockTree) CheckIfUnspectOutputExists(UnspectOutput cipher.SHA256, targetBlock *Block) string {
+func (bt *BlockTree) CheckIfUnspectOutputSpendable(UnspectOutput cipher.SHA256, targetBlock *Block) string {
+}
+```
+
+### CheckIfMultipleUnspectOutputSpendable
+- Traverses a tree from root to the given Block can check if all the outputs are spendable at the given block.
+- This function returns 
+  -> true: If all the outputs are spendable at the given block 
+  -> false: If anyone of the output is not spendable at the given block 
+```
+func (bt *BlockTree) CheckIfMultipleUnspectOutputSpendable(UnspentOutputs []cipher.SHA256, targetBlock *Block) bool {
 }
 ```
 
