@@ -13,8 +13,8 @@ type Block struct {
     Children        []*Block
     
     Transactions    []cipher.SHA256              // List of transaction ids
-	UxIdSpent       map[cipher.SHA256]*[]btye    // outputs spent / destroyed
-	UxIdCreated     map[cipher.SHA256]*[]btye    // ouputs being created
+    UxIdSpent       map[cipher.SHA256]*[]btye    // outputs spent / destroyed
+    UxIdCreated     map[cipher.SHA256]*[]btye    // ouputs being created
 }
 ```
 
