@@ -1,77 +1,82 @@
-# Scan base58 Addresses
-A Cli utility to scan files for Bitcoin addresses and base58 strings
+# A Documentation
+A library to manage Blocks
 
-# Building
-```console
-cd scan-bitcoin-addresses  
-go build
-```
+## Structs
 
-# Get help?
-```console
-cd scan-bitcoin-addresses  
-./scan-bitcoin-addresses.exe -h
+### Block
 ```
-
-# Sample run for file vs directory [path can be relative or absolute]
-### DirectoryPath:
-```console
-./scan-bitcoin-addresses.exe scan directory1 directory2 directory3  
-```
-### FilePath: 
-```console
-./scan-bitcoin-addresses.exe scan testDirectory/possible/btc/possible.txt
-```
-
-# Sample output
-### Perfect match
-```console
-{
-    "MatchType": "perfect",
-    "MatchFile": "testDirectory\\perfect\\btc\\perfect.txt",
-    "MatchedLine": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 some words after the address",
-    "MatchedWord": "1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+type Block struct {
+    Hash            cipher.SHA256
+    SequenceNo      unint64
+    Depth           unint64             // The depth will be the position at which this block is stored in tree.
+    Parent          *Block
+    Children        []*Block
+    
+    Transactions    []cipher.SHA256              // List of transaction ids
+	UxIdSpent       map[cipher.SHA256]*[]btye    // outputs spent / destroyed
+	UxIdCreated     map[cipher.SHA256]*[]btye    // ouputs being created
 }
 ```
 
-### Possible match
-```console
-{
-    "MatchType": "possible",
-    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
-    "MatchedLine": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a btc:19ck9VKC6KjGxR9LJg4DNMRc45qFrJguvV address then possible address then some words case:2",
-    "MatchedWord": "btc:1NKRhS7iYUGTaAfaR5z8BueAJesqaTyc4a"
+### BlockTree
+In order to use the library we will create a BlockTree instance. Each block tree instance holds a tree of blocks and exposes various methods to interact with them. 
+```
+type BlockTree struct {
+    Root               *Block                               // Serves as the root of the block tree
+    TransactionsMap    map[cipher.SHA256]*Transactions      // Global TxId to *Transactions Map (Transactions struct is defined in [coin/Transactions.go]) 
 }
 ```
 
-## Verbose mode
 
-```console
-go run main.go scan -v testDirectory
+## Routines
 
-
-Scanning: Dir(1 of 1) File(1 of 6): testDirectory\possible\btc\possible.txt
-{
-    "MatchType": "possible",
-    "MatchFile": "testDirectory\\possible\\btc\\possible.txt",
-    "MatchedLine": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9 address then possible address then some words case:2",
-    "MatchedLineNo": 1,
-    "MatchedWord": "btc:1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9"
+### CheckIfUnspentOutputExistsInSpent
+- Checks if an unspent output is spent in a block
+```
+func (b *Block) CheckIfUnspentOutputExistsInSpent(uxId cipher.SHA256) string {
 }
-...
+```
 
-Scan Complete: Dir(1 of 1) File(1 of 6): testDirectory\possible\btc\possible.txt, size: 1 KB(s), line(s): 18, timeTaken: 65 ms
-
----
-
-Scanning: Dir(1 of 1) File(6 of 6): testDirectory\perfect\skycoin\perfect.txt
-{
-    "MatchType": "perfect",
-    "MatchFile": "testDirectory\\perfect\\skycoin\\perfect.txt",
-    "MatchedLine": "1QCaxc8hutpdZ62iKZsn1TCG3nh7uPZojq some words after the address",
-    "MatchedLineNo": 1,
-    "MatchedWord": "1QCaxc8hutpdZ62iKZsn1TCG3nh7uPZojq"
+### CheckIfUnspentOutputExistsInCreated
+- Checks if an unspent output is created in a block
+```
+func (b *Block) CheckIfUnspentOutputExistsInCreated(uxId cipher.SHA256) string {
 }
-...
+```
 
-Scan Complete: Dir(1 of 1) File(6 of 6): testDirectory\perfect\skycoin\perfect.txt, size: 529 Byte(s), line(s): 9, timeTaken: 21 ms```
+
+### AddBlock
+- Adds a block to the block tree
+```
+func (bt *BlockTree) AddBlock(b *Block) string {
+}
+```
+
+### GetBlockDepth
+- Returns the number of blocks between the given block and the root of the block tree
+```
+func (bt *BlockTree) GetBlockDepth(b *Block) uint64 {
+}
+```
+
+### GetAllBlocks
+- Returns an list of all blocks from the root to the end of the tree. This function performs a *depth first traversal* of the whole tree returns the list of all blocks 
+  in the order they are found. 
+```
+func (bt *BlockTree) GetAllBlocks() []*Block {
+}
+```
+
+### CheckIfUnspectOutputExists
+- Traverses a tree from root to the given Block can check if the unspent out was destroyed on it's way from Root to the given block.
+- This function can *return* any of the following codes:
+  -> "NeverExisted": The unspent output never existed 
+  -> "Spent": The unspent output exists but was spent 
+  -> "Available": The unspent output is available to spend on the given block
+  
+```
+func (bt *BlockTree) CheckIfUnspectOutputExists(UnspectOutput cipher.SHA256, targetBlock *Block) string {
+}
+```
+
+
